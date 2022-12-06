@@ -61,7 +61,7 @@ namespace Biocalpert_Central
                 Editar_Medico editar_Medico = new Editar_Medico();
 
                 editar_Medico.Show();
-                this.Close();
+                
             }
         }
 

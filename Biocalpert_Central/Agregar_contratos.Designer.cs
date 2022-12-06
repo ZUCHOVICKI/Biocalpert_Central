@@ -255,13 +255,13 @@
             this.MARGEN_PERC_BOX.DecimalPlaces = 2;
             this.MARGEN_PERC_BOX.Location = new System.Drawing.Point(539, 257);
             this.MARGEN_PERC_BOX.Maximum = new decimal(new int[] {
-            1000000,
-            0,
+            -1486618624,
+            232830643,
             0,
             0});
             this.MARGEN_PERC_BOX.Minimum = new decimal(new int[] {
-            10000000,
-            0,
+            -1486618624,
+            232830643,
             0,
             -2147483648});
             this.MARGEN_PERC_BOX.Name = "MARGEN_PERC_BOX";
@@ -283,13 +283,13 @@
             this.MARGEN_BOX.DecimalPlaces = 2;
             this.MARGEN_BOX.Location = new System.Drawing.Point(539, 204);
             this.MARGEN_BOX.Maximum = new decimal(new int[] {
-            1000000,
-            0,
-            0,
+            -1304428544,
+            434162106,
+            542,
             0});
             this.MARGEN_BOX.Minimum = new decimal(new int[] {
-            1000000,
-            0,
+            -1486618624,
+            232830643,
             0,
             -2147483648});
             this.MARGEN_BOX.Name = "MARGEN_BOX";
@@ -316,9 +316,9 @@
             5421010,
             0});
             this.Costo_LAP_BOX.Minimum = new decimal(new int[] {
-            276447232,
-            23283,
-            0,
+            -402653184,
+            -1613725636,
+            54210108,
             -2147483648});
             this.Costo_LAP_BOX.Name = "Costo_LAP_BOX";
             this.Costo_LAP_BOX.Size = new System.Drawing.Size(134, 23);
@@ -419,9 +419,9 @@
             this.ENGANCHE_BOX.DecimalPlaces = 2;
             this.ENGANCHE_BOX.Location = new System.Drawing.Point(1066, 177);
             this.ENGANCHE_BOX.Maximum = new decimal(new int[] {
-            1000000,
-            0,
-            0,
+            -559939584,
+            902409669,
+            54,
             0});
             this.ENGANCHE_BOX.Name = "ENGANCHE_BOX";
             this.ENGANCHE_BOX.Size = new System.Drawing.Size(134, 23);
@@ -441,9 +441,9 @@
             this.ANTICIPO_BOX.DecimalPlaces = 2;
             this.ANTICIPO_BOX.Location = new System.Drawing.Point(911, 177);
             this.ANTICIPO_BOX.Maximum = new decimal(new int[] {
-            1000000,
-            0,
-            0,
+            -469762048,
+            -590869294,
+            5421010,
             0});
             this.ANTICIPO_BOX.Name = "ANTICIPO_BOX";
             this.ANTICIPO_BOX.Size = new System.Drawing.Size(134, 23);

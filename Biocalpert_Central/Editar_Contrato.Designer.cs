@@ -450,8 +450,8 @@
             this.ENGANCHE_BOX.DecimalPlaces = 2;
             this.ENGANCHE_BOX.Location = new System.Drawing.Point(1066, 177);
             this.ENGANCHE_BOX.Maximum = new decimal(new int[] {
-            1000000,
-            0,
+            1569325056,
+            23283064,
             0,
             0});
             this.ENGANCHE_BOX.Name = "ENGANCHE_BOX";
@@ -472,9 +472,9 @@
             this.ANTICIPO_BOX.DecimalPlaces = 2;
             this.ANTICIPO_BOX.Location = new System.Drawing.Point(911, 177);
             this.ANTICIPO_BOX.Maximum = new decimal(new int[] {
-            1000000,
-            0,
-            0,
+            1241513984,
+            370409800,
+            542101,
             0});
             this.ANTICIPO_BOX.Name = "ANTICIPO_BOX";
             this.ANTICIPO_BOX.Size = new System.Drawing.Size(134, 23);

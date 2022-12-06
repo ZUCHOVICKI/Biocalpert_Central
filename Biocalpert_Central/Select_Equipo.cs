@@ -89,7 +89,7 @@ namespace Biocalpert_Central
                 Editar_Equipo editar_Equipo = new Editar_Equipo();
 
                 editar_Equipo.Show();
-                this.Close();
+               
             }
         }
     }

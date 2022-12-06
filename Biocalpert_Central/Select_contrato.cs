@@ -238,7 +238,7 @@ namespace Biocalpert_Central
                 Editar_Contrato editar_Contrato = new Editar_Contrato();
 
                 editar_Contrato.Show();
-                this.Close();
+                
             }
         }
     }

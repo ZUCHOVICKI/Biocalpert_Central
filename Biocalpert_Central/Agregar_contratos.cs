@@ -48,7 +48,7 @@ namespace Biocalpert_Central
 
             while (dataReader.Read())
             {
-                if (equipos_Datos.ContainsKey(dataReader.GetValue(1).ToString())){ }
+                if (equipos_Datos.ContainsKey(dataReader.GetValue(1).ToString()!)){ }
                 else
                 {
                     Output = dataReader.GetValue(1).ToString()!;
@@ -496,8 +496,8 @@ namespace Biocalpert_Central
             if (Mensual_check.Checked)
             {
 
-                decimal cantidadMensual = (CANTIDAD_BOX.Value-ANTICIPO_BOX.Value-ENGANCHE_BOX.Value) / PLAZOS_BOX.Value;
-                decimal cantidadRestante = CANTIDAD_BOX.Value;
+                decimal cantidadMensual = ((CANTIDAD_BOX.Value-ANTICIPO_BOX.Value)-ENGANCHE_BOX.Value) / PLAZOS_BOX.Value;
+                decimal cantidadRestante = ((CANTIDAD_BOX.Value - ANTICIPO_BOX.Value) - ENGANCHE_BOX.Value);
                 DateTime fechaActual = FECHA_CONTRATO.Value;
                 int pagoActual = 0;
                 dynamic[] dataRow = { };
@@ -523,8 +523,8 @@ namespace Biocalpert_Central
             }
             if (Quincenal_Check.Checked)
             {
-                decimal cantidadQuincena = (CANTIDAD_BOX.Value - ANTICIPO_BOX.Value - ENGANCHE_BOX.Value) / PLAZOS_BOX.Value;
-                decimal cantidadRestante = CANTIDAD_BOX.Value;
+                decimal cantidadQuincena = ((CANTIDAD_BOX.Value - ANTICIPO_BOX.Value) - ENGANCHE_BOX.Value) / PLAZOS_BOX.Value;
+                decimal cantidadRestante = ((CANTIDAD_BOX.Value - ANTICIPO_BOX.Value) - ENGANCHE_BOX.Value);
                 DateTime fechaActual = FECHA_CONTRATO.Value;
                 DateTime fechaActualFirst = FECHA_CONTRATO.Value;
                 int pagoActual = 0;
@@ -559,8 +559,8 @@ namespace Biocalpert_Central
             }
                 if (Especifico_Check.Checked)
                 {
-                    decimal cantidadMensual = (CANTIDAD_BOX.Value - ANTICIPO_BOX.Value - ENGANCHE_BOX.Value) / PLAZOS_BOX.Value;
-                    decimal cantidadRestante = CANTIDAD_BOX.Value;
+                    decimal cantidadMensual = ((CANTIDAD_BOX.Value - ANTICIPO_BOX.Value) - ENGANCHE_BOX.Value) / PLAZOS_BOX.Value;
+                    decimal cantidadRestante = ((CANTIDAD_BOX.Value - ANTICIPO_BOX.Value) - ENGANCHE_BOX.Value);
                     DateTime fechaActual = FECHA_CONTRATO.Value;
                     int pagoActual = 0;
                     dynamic[] dataRow = { };

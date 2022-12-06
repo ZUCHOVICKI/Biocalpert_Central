@@ -87,7 +87,7 @@ namespace Biocalpert_Central
                 Editar_Vendedor editar_Vendedor = new Editar_Vendedor();
 
                 editar_Vendedor.Show();
-                this.Close();
+                
             }
         }
     }
