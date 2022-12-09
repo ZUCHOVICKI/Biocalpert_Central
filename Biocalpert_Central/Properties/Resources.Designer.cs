@@ -69,5 +69,14 @@ namespace Biocalpert_Central.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a server=189.141.35.87\\SQLEXPRESS,1433;database=Admin_BIO;UID=admin;password=123.
+        /// </summary>
+        internal static string DBSTRING {
+            get {
+                return ResourceManager.GetString("DBSTRING", resourceCulture);
+            }
+        }
     }
 }

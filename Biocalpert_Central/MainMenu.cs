@@ -13,7 +13,8 @@ namespace Biocalpert_Central
 {
     public partial class MainMenu : Form
     {
-        public static String connectStr = "server=localhost\\SQLEXPRESS;database=Admin_BIO;UID=admin;password=123";
+        //public static String connectStr = "server=189.141.35.87\\SQLEXPRESS,1433;database=Admin_BIO;UID=admin;password=123";
+        public static String connectStr = Properties.Resources.DBSTRING;
 
         public MainMenu()
         {
