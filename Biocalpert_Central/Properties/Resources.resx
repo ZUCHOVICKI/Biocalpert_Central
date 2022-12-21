@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="DBSTRING" xml:space="preserve">
-    <value>server=189.141.35.87\\SQLEXPRESS,1433;database=Admin_BIO;UID=admin;password=123</value>
+    <value>server=biocalpert.hopto.org\\SQLEXPRESS,1433;database=Admin_BIO;UID=admin;password=123</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="_20944201" type="System.Resources.ResXFileRef, System.Windows.Forms">

@@ -71,7 +71,7 @@ namespace Biocalpert_Central.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a server=189.141.35.87\\SQLEXPRESS,1433;database=Admin_BIO;UID=admin;password=123.
+        ///   Busca una cadena traducida similar a server=biocalpert.hopto.org\\SQLEXPRESS,1433;database=Admin_BIO;UID=admin;password=123.
         /// </summary>
         internal static string DBSTRING {
             get {
